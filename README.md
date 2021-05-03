@@ -1,6 +1,6 @@
 ### python-youtube-dl
 
-A useful simple git container running, especially for tiny Linux distro, such as RancherOS, which doesn't have a package manager.
+A useful simple youtube-dl container running, especially for tiny Linux distro, such as RancherOS, which doesn't have a package manager.
 
 [![DockerHub Badge](https://dockeri.co/image/dublado/python-youtube-dl)](https://hub.docker.com/r/dublado/python-youtube-dl)
 
@@ -37,4 +37,4 @@ for example, if you need clone this repository, with the function you just set, 
 
 ### Optional usage 2:
 
-    alias git="docker run -ti --rm -v $(pwd)/videos:/videos dublado/youtube-dl"
+    alias ydl="docker run -ti --rm -v $(pwd)/videos:/videos dublado/youtube-dl"
